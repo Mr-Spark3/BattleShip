@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>BattleShip</title>
+   <link href="style.css" rel="stylesheet"></link>
+   <script defer src="script.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,900&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+</head>
+<body>
+   <h1>BattleShip</h1>
+   <h3 class="player-board-title">Player Board</h3>
+   <h3 class="computer-board-title">Computer Board</h3>
+
+   <div class="board-container">
+    <div class="cells"></div>
+     <div class="board" id="playerBoard"></div>
+     <div class="board" id="computerBoard"></div>
+   </div>
+
+   <button class="play-again">Play/ Reset Board</button>
+   <button id="startButton">Start Game</button>
+  
+   <div class="ship-container">
+       <h3 class="ship-container-title">Ships</h3>
+    
+   </div>
+  
+   <div id="direction-container">
+       <h3 class="direction-container-title">Directions</h3>
+       <ol>
+           <li class="list">Drag and drop ships on to the Player Board</li>
+           <li class="list">Select a grid cell to attack the computers ship</li>
+           <li class="list">Try and destroy all the computer ships before yours get destroyed</li>
+       </ol>
+   </div>
+ </body>
+</html>
